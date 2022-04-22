@@ -1,3 +1,10 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .container {
     background: linear-gradient(to bottom right, rgba(193, 225, 247, 0.664), #fafafa, rgba(160, 201, 228, 0.644));
     display: grid;
@@ -24,7 +31,7 @@
 
 h2 {
     font-size: 2em;
-    font-family: 'montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #00a2ff;
     margin-top: 10px;
@@ -43,20 +50,20 @@ input {
     border-radius: 5px;
     border-color: rgb(187, 187, 187);
     font-size: 20px;
-    font-family: 'montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
-input::placeholder {
-    
+input::placeholder {   
     font-size: 20px;
     color: rgb(5, 14, 97);
-
+    text-align: center;
 }
+
 
 .entrar {
     font-size: 25px;
-    font-family: 'montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     padding: 20px 175px;
     text-transform: uppercase;
@@ -80,7 +87,7 @@ input::placeholder {
     border-radius: 15px;
     border-color: rgba(196, 194, 194, 0.747);
     color: rgb(27, 27, 27);
-    font-family: 'montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 15px;
 }
